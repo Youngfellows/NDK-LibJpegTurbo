@@ -1,0 +1,3 @@
+rootProject.name = "NDKJpeg"
+include ':app'
+include ':libjpeg'

@@ -1,0 +1,10 @@
+prefix=/mnt/d/StudyCode2021/CMakeAudioVideo/AudioVideoCode/3rd-library/libjpeg-turbo/dist/libjpeg-turbo/x86_64
+exec_prefix=/mnt/d/StudyCode2021/CMakeAudioVideo/AudioVideoCode/3rd-library/libjpeg-turbo/dist/libjpeg-turbo/x86_64
+libdir=/mnt/d/StudyCode2021/CMakeAudioVideo/AudioVideoCode/3rd-library/libjpeg-turbo/dist/libjpeg-turbo/x86_64/lib
+includedir=/mnt/d/StudyCode2021/CMakeAudioVideo/AudioVideoCode/3rd-library/libjpeg-turbo/dist/libjpeg-turbo/x86_64/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 2.1.92
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}

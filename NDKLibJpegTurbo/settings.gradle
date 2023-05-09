@@ -1,0 +1,3 @@
+rootProject.name = "LibJpegTurboAndroid"
+include ':app'
+include ':libjpeg-turbo'

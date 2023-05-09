@@ -1,0 +1,3 @@
+rootProject.name = "NDKPictureCompress"
+include ':app'
+include ':libjpeg-turbo'

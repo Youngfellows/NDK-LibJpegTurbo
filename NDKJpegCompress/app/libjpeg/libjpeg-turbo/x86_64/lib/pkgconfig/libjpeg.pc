@@ -1,0 +1,10 @@
+prefix=/mnt/d/StudyCode2021/CMakeAudioVideo/AudioVideoCode/3rd/libjpeg-turbo/dist/libjpeg-turbo/x86_64
+exec_prefix=/mnt/d/StudyCode2021/CMakeAudioVideo/AudioVideoCode/3rd/libjpeg-turbo/dist/libjpeg-turbo/x86_64
+libdir=/mnt/d/StudyCode2021/CMakeAudioVideo/AudioVideoCode/3rd/libjpeg-turbo/dist/libjpeg-turbo/x86_64/lib
+includedir=/mnt/d/StudyCode2021/CMakeAudioVideo/AudioVideoCode/3rd/libjpeg-turbo/dist/libjpeg-turbo/x86_64/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 2.0.5
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}
